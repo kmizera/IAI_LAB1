@@ -1,16 +1,34 @@
 body {
-background: linear-gradient(45deg, yellow, green)
-    }
-
+    background-color:mediumaquamarine;
+}
 li {
     display: inline;
 }
-div{
-    width: 400px;
-    height: 600px;
-    border: 1px solid;
-    resize:both;
-    overflow:auto;
+body {
 
 }
+div {
+}
+#contact {
+    width:400px;
 
+    height:600px;
+
+    border:1px solid;
+
+    resize:both;
+
+    overflow:auto;
+
+    margin: 10px;
+
+    padding: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

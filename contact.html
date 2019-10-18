@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Laboratorium</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <title>Laborki</title>
 </head>
 <body>
 <nav class="nav">
-    <a class="nav-link active" href="index.html">HOME</a>
-    <a class="nav-link active" href="#">BLOG</a>
-    <a class="nav-link active" href="#">QUIZ</a>
-    <a class="nav-link active" href="contact.html">KONTAKT</a>
-
+    <a class="nav-link active" href="index.html">Home</a>
+    <a class="nav-link active" href="#">Blog</a>
+    <a class="nav-link active" href="#">Quiz</a>
+    <a class="nav-link active" href="contact.html">Kontakt</a>
 </nav>
-<div>
-    <form>
-
-        Podaj swoje imię <input name="imie"> <br>
-        Podaj swoje nazwisko <input name="nazwisko"> <br>
-        Podaj swoj mail <input name="email"><br>
-
-        Podaj swoją płeć:
-        <input type="radio" name="plec" value="Kobieta">Kobieta
-        <input type="radio" name="plec" value="Mężczyzna">Mężczyzna<br>
-        <textarea name="opis" value="Opis" cols="30" rows="10">Opis</textarea><br>
-
-        Podaj swoj wiek: <input type="number" name="wiek" min="1" max="100"><br>
-
-
-        Stan cywilny:
-        <select name="stancywilny" >
-            <option selected>Zamężny/Żonata</option>
-            <option>Kawaler/Panna</option>
-            <option>Wdowiec/Wdowa</option>
-            <option>Rozwodnik/Rozwódka</option>
-        </select>
-
-
-
-    </form>
+<div id="contact">
+    <p align="center">Uzupełnij dane:</p> <br>
+    Podaj imie: <br>
+    <input type="text" name="imie" placeholder="Podaj imie"> <br>
+    Podaj nazwisko: <br>
+    <input type="text" name="nazwisko" placeholder="Podaj nazwisko"> <br>
+    Podaj e-mail: <br>
+    <input type="email" name="mail" placeholder="Podaj e-mail"> <br>
+    Płeć: <br>
+    <input type="checkbox" name="nazwa" placeholder="wartość" > Kobieta
+    <input type="checkbox" name="nazwa" placeholder="wartość" >  Mężczyzna <br>
+    Opis: <br>
+    <textarea rows="4" cols="30">
+    </textarea> <br>
+    Podaj wiek: <br>
+    <input type="number" name="wiek" min="10" max="99" value="20"> <br>
+    Stan cywilny: <br>
+    <select>
+        <option value="wartość1">Kawaler/Panna</option>
+        <option value="wartość2">Zamężny/Żonata</option>
+        <option value="wartość3">Wdowiec/Wdowa</option>
+        <option value="wartość4">Rozwodnik/Rozwódka</option>
+    </select><br><br>
+    <button type="submit">Wyslij</button>
+    <button type="reset">Wyczysc</button>
 
 </div>
 
 </body>
+<div class="footer">
+    <p>Copyrights © Katarzyna Mizera | 2019</p>
+</div>
 </html>
